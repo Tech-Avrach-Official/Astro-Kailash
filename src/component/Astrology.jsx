@@ -21,6 +21,7 @@ export default function Astrology() {
           atque nam officiis quod mollitia culpa omnis dolor itaque hic minima
           ad, veniam dolorum! A expedita ea nihil dolorem placeat? quod mollitia culpa omnis dolor itaque hic minima
           ad, veniam dolorum! A expedita ea nihil dolore 
+          Lorem ipsum dolor sit amet.
         </p>
         <button className="rounded-3xl bg-[rgb(217,158,54)] hover:bg-white text-gray-800 py-2 px-5 md:ml-7">Read More</button>
       </div>
