@@ -37,7 +37,7 @@ export default function OurServices() {
           </div>
           <div className="border-accent border-2 rounded-md flex justify-between items-center">
             <div className="flex flex-col justify-start p-3">
-              <h3 className="text-white text-lg lg:text-xl">Astrology Tips</h3>
+              <h3 className="text-white text-lg lg:text-xl">Gem Stone</h3>
               <p className="text-[#494966] text-sm lg:text-base">
                 Lorem ipsum dolor sit amet consectetur
               </p>
@@ -48,7 +48,7 @@ export default function OurServices() {
           </div>
           <div className="border-accent border-2 rounded-md flex justify-between items-center">
             <div className="flex flex-col justify-start p-3">
-              <h3 className="text-white text-lg lg:text-xl">Astrology Tips</h3>
+              <h3 className="text-white text-lg lg:text-xl">Vastu Tips</h3>
               <p className="text-[#494966] text-sm lg:text-base">
                 Lorem ipsum dolor sit amet consectetur
               </p>
@@ -73,7 +73,7 @@ export default function OurServices() {
         <div className="flex flex-col space-y-6">
           <div className="border-accent border-2 rounded-md flex justify-between items-center lg:flex-row-reverse">
             <div className="flex flex-col justify-start p-3 lg:text-right">
-              <h3 className="text-white text-lg lg:text-xl">Astrology Tips</h3>
+              <h3 className="text-white text-lg lg:text-xl">Health Tips</h3>
               <p className="text-[#494966] text-sm lg:text-base">
                 Lorem ipsum dolor sit amet consectetur
               </p>
@@ -84,7 +84,7 @@ export default function OurServices() {
           </div>
           <div className="border-accent border-2 rounded-md flex justify-between items-center lg:flex-row-reverse">
             <div className="flex flex-col justify-start p-3 lg:text-right">
-              <h3 className="text-white text-lg lg:text-xl">Astrology Tips</h3>
+              <h3 className="text-white text-lg lg:text-xl">Numerology Tips</h3>
               <p className="text-[#494966] text-sm lg:text-base">
                 Lorem ipsum dolor sit amet consectetur
               </p>
@@ -95,7 +95,7 @@ export default function OurServices() {
           </div>
           <div className="border-accent border-2 rounded-md flex justify-between items-center lg:flex-row-reverse">
             <div className="flex flex-col justify-start p-3 lg:text-right">
-              <h3 className="text-white text-lg lg:text-xl">Astrology Tips</h3>
+              <h3 className="text-white text-lg lg:text-xl">Kundli Dosha </h3>
               <p className="text-[#494966] text-sm lg:text-base">
                 Lorem ipsum dolor sit amet consectetur
               </p>
