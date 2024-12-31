@@ -1,7 +1,7 @@
 import girl from "../assets/girl.jpeg";
 export default function Services() {
   return (
-    <div className=" py-14 px-5 space-y-10 bg-gradient-to-b from-zinc-900 via-zinc-950 to-black flex flex-col  ">
+    <div className=" py-14 px-5 space-y-10 bg-custom-gradient flex flex-col  ">
       <div className="flex flex-col justify-center items-center space-y-5 ">
         <button className="bg-[rgb(217,158,54)] py-2 px-3 rounded-3xl text-slate-900 uppercase">
           Services

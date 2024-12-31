@@ -6,7 +6,7 @@ import Zodiac5 from "../assets/zodiac5.svg";
 // import Zodiac6 from "../assets/zodiac6.svg";
 export default function Vastu() {
   return (
-    <div className="py-14 px-5 space-y-10 bg-gradient-to-b from-black via-zinc-950 to-zinc-900 flex flex-col text-white">
+    <div className="py-14 px-5 space-y-10 bg-custom-gradient flex flex-col text-white">
         <h6 className=" text-lg font-bold">Why Vastu Consultation is Crucial ?</h6>
       <div className="grid md:grid-cols-5 md:grid-rows-1 sm:grid-cols-3 sm:grid-rows-2 grid-cols-2 grid-rows-3 gap-4 md:gap-4 md:px-6">
         <div className="p-4 flex justify-center items-center flex-col bg-zinc-500 bg-opacity-30 text-center rounded shadow hover:scale-105">

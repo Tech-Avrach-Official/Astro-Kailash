@@ -4,7 +4,7 @@ import ball from "../assets/ball.jpeg";
 
 const ReadingsSection = () => {
   return (
-    <div className="bg-gradient-to-b from-zinc-900 via-zinc-950 to-black text-white py-16 px-4 lg:px-16">
+    <div className="bg-custom-gradient text-white py-16 px-4 lg:px-16">
         <h5 className="text-gray-400">SERVICES</h5>
         <div className="flex justify-between py-6 lg:flex-row flex-col">
             <h5 className="text-3xl font-serif pb-3">Discover Your Path in the stars with Us</h5>

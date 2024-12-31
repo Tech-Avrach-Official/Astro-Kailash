@@ -2,6 +2,7 @@ import logo from "../assets/circle.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-black left-0 right-0 top-0 fixed px-4 py-2 w-full flex justify-between shadow-sm shadow-zinc-800">
+    <nav className="bg-black left-0 right-0 top-0 fixed px-4 py-2 w-full flex justify-between shadow-sm shadow-zinc-800 z-10">
       <div className="flex justify-around items-center md:flex md:justify-between md:gap-10 md:items-center">
         <div className="flex items-center justify-between">
           <div>
@@ -29,22 +30,22 @@ export default function Navbar() {
 
         <ul className="hidden md:flex justify-evenly items-center gap-6 ">
           <li>
-            <button className="text-gray-600 text-sm">
-              Free Vedic Birth Chart
-            </button>
+            <Link to="/" className="text-gray-600 text-sm">
+              Home
+            </Link>
           </li>
           <li>
             <button className="text-gray-600 text-sm">Pricing</button>
           </li>
           <li>
-            <button className="text-gray-600 text-sm">
-              How does it work ?
-            </button>
+            <Link to="/About" className="text-gray-600 text-sm">
+              About
+            </Link>
           </li>
           <li>
-            <button className="text-gray-600 text-sm">
-              Learn Vedic Astrology
-            </button>
+            <Link to="/ContactUs" className="text-gray-600 text-sm">
+              Contact
+            </Link>
           </li>
           <li>
             <button className="text-gray-600 text-sm">FAQs</button>
@@ -95,17 +96,17 @@ export default function Navbar() {
         <div className=" overflow-y-auto">
           <ul className=" space-y-2">
             <li>
-              <button className="text-gray-600 text-sm">
-                Free Vedic Birth Chart
-              </button>
+                <Link to="/" className="text-gray-600 text-sm">
+              Home
+            </Link>
             </li>
             <li>
               <button className="text-gray-600 text-sm">Pricing</button>
             </li>
             <li>
-              <button className="text-gray-600 text-sm">
-                How does it work ?
-              </button>
+              <Link to="/About" className="text-gray-600 text-sm">
+              About
+            </Link>
             </li>
             <li>
               <button className="text-gray-600 text-sm">
