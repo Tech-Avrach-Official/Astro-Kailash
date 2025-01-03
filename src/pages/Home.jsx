@@ -12,7 +12,7 @@ export default function Home() {
      <FrontPage/>
       <Zodiac />
       <Astrology />
-      <Services />
+      {/* <Services /> */}
       <Vastu />
       <CelestialPage />
       <ReadingsSection />

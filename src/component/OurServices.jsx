@@ -10,7 +10,7 @@ import img5 from "../assets/download(5).svg";
 
 export default function OurServices() {
   return (
-    <div className="bg-primary pt-5 pb-16 px-5 md:px-10 lg:px-20 xl:px-40">
+    <div className="bg-[#020013] py-20 px-5 md:px-10 lg:px-20 xl:px-40">
       <h2 className="text-center text-white font-semibold text-3xl md:text-4xl lg:text-5xl">
         Our Services
       </h2>

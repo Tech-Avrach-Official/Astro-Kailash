@@ -10,7 +10,7 @@ export default function About() {
   return (
     <div>
       {/* Hero Section */}
-      <BackGround />
+      <BackGround title="About Us" />
       <LatestArticles />
 
       <Horoscope />

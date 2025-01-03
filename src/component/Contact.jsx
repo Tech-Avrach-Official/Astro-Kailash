@@ -3,12 +3,12 @@ import { IoCall } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 const Contact = () => {
   return (
-    <div className="bg-secondary text-white py-10 px-8 lg:px-24">
+    <div className="bg-white text-black py-10 px-8 lg:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Get In Touch With Us!</h2>
+          <h2 className="text-4xl text-yellow-600 font-bold mb-4">Get In Touch With Us!</h2>
           <div className="h-1 w-24 bg-white mx-auto mb-4 rounded-full"></div>{" "}
-          <p className="text-lg text-gray-300 md:px-56">
+          <p className="text-lg text-gray-600 md:px-56">
            
             labore et dolore magna aliqua. Suspendisse ultrices gravida.
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae animi quos in culpa eveniet 
@@ -16,7 +16,7 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="bg-purple-900 p-8 rounded-lg shadow-lg">
+          <div className="bg-white p-8 rounded-lg shadow-xl">
             <div className="flex items-center mb-6">
               
               <FaLocationDot className=" mr-4 text-xl"/>
@@ -57,50 +57,47 @@ const Contact = () => {
           </div>
 
         
-          <div className="bg-purple-900 p-8 rounded-lg shadow-lg">
-            <form>
+          <div className="bg-white flex flex-col justify-between p-8 rounded-lg shadow-lg">
+          
+              <div>
               <div className="mb-4">
                 <input
                   type="text"
                   placeholder="Name"
-                  className="w-full bg-purple-700 border border-purple-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-purple-500"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  type="text"
-                  placeholder="Last Name"
-                  className="w-full bg-purple-700 border border-purple-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full border border-gray-400 rounded-md py-2 px-4"
                 />
               </div>
               <div className="mb-4">
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="w-full bg-purple-700 border border-purple-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full border border-gray-400 rounded-md py-2 px-4"
                 />
               </div>
               <div className="mb-4">
                 <input
                   type="text"
                   placeholder="Subject"
-                  className="w-full bg-purple-700 border border-purple-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full border border-gray-400 rounded-md py-2 px-4"
                 />
               </div>
               <div className="mb-6">
                 <textarea
                   placeholder="Message"
                   rows="4"
-                  className="w-full bg-purple-700 border border-purple-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full border border-gray-400 rounded-md py-2 px-4"
                 ></textarea>
               </div>
+              </div>
+              <div>
               <button
                 type="submit"
-                className="w-full bg-purple-500 hover:bg-purple-400 text-white py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300"
+                className="bg-yellow-600 w-full text-white py-2 rounded-md"
               >
                 Send Message
               </button>
-            </form>
+              </div>
+           
           </div>
         </div>
       </div>

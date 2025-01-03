@@ -1,81 +1,66 @@
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc-800 text-white py-8 px-4">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-        {/* Logo and Social Links */}
-        <div>
-          <h1 className="text-lg font-bold mb-4">AstralVue</h1>
-          <p className="text-sm mb-4">
+    <footer className="bg-[#020013] text-white py-10 md:py-20 px-5 md:px-28">
+      <div className="flex flex-col lg:flex-row gap-10 md:gap-20">
+      <div className="lg:w-[30rem]">
+          <h1 className="text-lg text-center lg:text-start font-bold mb-4">AstralVue</h1>
+          <p className="text-sm text-center lg:text-start mb-4">
             Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma
           </p>
-          <div className="flex space-x-4">
-            <a href="#" className="hover:text-gray-300">
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a href="#" className="hover:text-gray-300">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#" className="hover:text-gray-300">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#" className="hover:text-gray-300">
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="#" className="hover:text-gray-300">
-              <i className="fab fa-youtube"></i>
-            </a>
-          </div>
         </div>
-
+      <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+         
         {/* Product Links */}
         <div>
-          <h2 className="font-bold mb-4">Product</h2>
+          <h2 className="font-bold text-center lg:text-start mb-4">Product</h2>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-300">Features</a></li>
-            <li><a href="#" className="hover:text-gray-300">Pricing</a></li>
-            <li><a href="#" className="hover:text-gray-300">Case studies</a></li>
-            <li><a href="#" className="hover:text-gray-300">Reviews</a></li>
-            <li><a href="#" className="hover:text-gray-300">Updates</a></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Features</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Pricing</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Case studies</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Reviews</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Updates</p></li>
           </ul>
         </div>
 
         {/* Company Links */}
         <div>
-          <h2 className="font-bold mb-4">Company</h2>
+          <h2 className="font-bold mb-4 text-center lg:text-start">Company</h2>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-300">About</a></li>
-            <li><a href="#" className="hover:text-gray-300">Contact us</a></li>
-            <li><a href="#" className="hover:text-gray-300">Careers</a></li>
-            <li><a href="#" className="hover:text-gray-300">Culture</a></li>
-            <li><a href="#" className="hover:text-gray-300">Blog</a></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">About</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Contact us</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Careers</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Culture</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Blog</p></li>
           </ul>
         </div>
 
         {/* Support Links */}
         <div>
-          <h2 className="font-bold mb-4">Support</h2>
+          <h2 className="font-bold mb-4 text-center lg:text-start">Support</h2>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-300">Getting started</a></li>
-            <li><a href="#" className="hover:text-gray-300">Help center</a></li>
-            <li><a href="#" className="hover:text-gray-300">Server status</a></li>
-            <li><a href="#" className="hover:text-gray-300">Report a bug</a></li>
-            <li><a href="#" className="hover:text-gray-300">Chat support</a></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Getting started</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Help center</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Server status</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Report a bug</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Chat support</p></li>
           </ul>
         </div>
 
         {/* Downloads Links */}
         <div>
-          <h2 className="font-bold mb-4">Downloads</h2>
+          <h2 className="font-bold mb-4 text-center lg:text-start">Downloads</h2>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-300">iOS</a></li>
-            <li><a href="#" className="hover:text-gray-300">Android</a></li>
-            <li><a href="#" className="hover:text-gray-300">Mac</a></li>
-            <li><a href="#" className="hover:text-gray-300">Windows</a></li>
-            <li><a href="#" className="hover:text-gray-300">Chrome</a></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">iOS</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Android</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Mac</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Windows</p></li>
+            <li><p className="hover:text-gray-300 text-center lg:text-start">Chrome</p></li>
           </ul>
         </div>
+      </div>
       </div>
 
       <div className="border-t border-gray-600 mt-8 pt-4 text-center text-sm">
