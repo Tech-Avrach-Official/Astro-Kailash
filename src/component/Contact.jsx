@@ -3,12 +3,12 @@ import { IoCall } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 const Contact = () => {
   return (
-    <div className="bg-white text-black py-10 px-8 lg:px-24">
+    <div className="bg-white text-black py-10 px-5 lg:px-28">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl text-yellow-600 font-bold mb-4">Get In Touch With Us!</h2>
+        <div className="text-center mb-5 md:mb-16">
+          <h2 className="text-2xl md:text-4xl text-yellow-600 font-bold mb-2 md:mb-4">Get In Touch With Us!</h2>
           <div className="h-1 w-24 bg-white mx-auto mb-4 rounded-full"></div>{" "}
-          <p className="text-lg text-gray-600 md:px-56">
+          <p className="text-sm md:text-lg text-gray-600 md:px-56">
            
             labore et dolore magna aliqua. Suspendisse ultrices gravida.
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae animi quos in culpa eveniet 

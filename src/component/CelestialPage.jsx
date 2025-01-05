@@ -1,12 +1,12 @@
 import room from '../assets/room.jpeg'
 function CelestialPage() {
   return (
-    <div className="bg-white py-20 px-28 text-black">
+    <div className="bg-white py-10 md:py-20 px-5 lg:px-28 text-black">
       <section className="flex justify-center">
         <img
           src={room}
           alt="Astrology chart with crystals"
-          className="rounded-lg h-[500px] shadow-lg w-full "
+          className="rounded-lg h-[300px] md:h-[500px] shadow-lg w-full "
           />
       </section>
           {/* Header Section */}

@@ -6,16 +6,16 @@ import service5 from "../assets/service-05.svg";
 import service6 from "../assets/service-06.svg";
 export default function Zodiac() {
   return (
-    <div className="bg-slate-50 flex items-center justify-center flex-col py-20 px-32">
+    <div className="bg-slate-50 flex items-center justify-center flex-col py-10 md:py-20 px-5 lg:px-32">
       <div>
-        <h1 className="text-center text-black text-5xl font-medium ">Our services</h1>
-        <p className="text-zinc-600 text-center leading-tight py-4 ">At Lintense, we provide consultations and various services by experienced <br className="hidden sm:block"/> fortune tellers, psychics and astrologers. Read on to find out more.</p>
+        <h1 className="text-center text-black text-3xl md:text-5xl font-medium ">Our services</h1>
+        <p className="text-zinc-600 text-center text-sm md:text-base py-4 ">At Lintense, we provide consultations and various services by experienced <br className="hidden sm:block"/> fortune tellers, psychics and astrologers. Read on to find out more.</p>
       </div>
       {/* Grid container */}
-      <div className="grid grid-cols-2 grid-rows-3 gap-y-4 gap-x-6 sm:grid-cols-3  sm:grid-rows-2 sm:max-w-5xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:max-w-5xl">
         <div className="flex items-center justify-center flex-col border-2 border-[rgb(191,157,80)] p-4 ">
           <img src={service1} alt="" />
-          <h3 className="text-[rgb(191,157,80)] text-[20px] font-medium py-1 text-center tracking-wider leading-tight">Personal consultation</h3>
+          <h3 className="text-[rgb(191,157,80)] text-base md:text-[20px] font-medium py-1 text-center tracking-wider leading-tight">Personal consultation</h3>
           <p className="text-gray-600 text-sm text-center">Get a confidence boost and solid advice with a personal consultations from the best fortune tailors at lintense</p>
         </div>
         <div className="flex items-center justify-center flex-col border-2 border-[rgb(191,157,80)] p-4 ">

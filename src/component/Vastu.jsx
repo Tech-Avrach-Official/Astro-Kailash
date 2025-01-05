@@ -44,7 +44,7 @@ const vastuBenefits = [
 
 export default function Vastu() {
   return (
-    <div className="py-20 px-28 space-y-10 bg-white flex flex-col text-white">
+    <div className="py-10 md:py-20 px-5 lg:px-28 space-y-10 bg-white flex flex-col text-white">
       <h6 className="text-2xl text-yellow-600 text-center font-bold">Why Vastu Consultation is Crucial?</h6>
       <div className="flex items-center justify-center lg:justify-between lg:flex-nowrap flex-wrap gap-5">
         {vastuBenefits.map((benefit) => (

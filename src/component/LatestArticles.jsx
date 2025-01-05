@@ -68,16 +68,16 @@ const articles = [
 
 const LatestArticles = () => {
   return (
-    <div className="bg-gray-100 text-black py-20">
+    <div className="bg-gray-100 text-black px-5 py-10 md:py-20">
       <div className="text-center mb-10">
-        <h2 className="text-4xl font-bold">Latest Articles</h2>
-        <p className="text-gray-600 mt-4 max-w-xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold">Latest Articles</h2>
+        <p className="text-gray-600 mt-4 max-w-xl text-sm md:text-base mx-auto">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {articles.map((article) => (
           <div
             key={article.id}

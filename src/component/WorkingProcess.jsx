@@ -30,30 +30,32 @@ const workingSteps = [
 
 export default function WorkingProcess() {
   return (
-    <div className="bg-white space-y-6 py-20 px-40">
-      <h5 className="text-yellow-600 text-center text-lg">How we Works</h5>
-      <h1 className="text-black text-center text-5xl font-bold">
+    <div className="bg-white py-10 md:py-20 px-5 lg:px-40">
+      <div className="flex flex-col items-center justify-center">
+      <h5 className="text-yellow-600 text-center text-sm md:text-lg">How we Works</h5>
+      <h1 className="text-black text-center md:mt-3 text-2xl md:text-5xl font-bold">
         Our Working Process
       </h1>
-      <p className="text-gray-600 text-center md:px-56">
+      <p className="text-gray-600 mt-2 md:mt-5 text-sm md:text-base text-center max-w-2xl">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic magni
         illum molestias vel dignissi laboriosam, minima quas perferendis
         corrupti sapiente neque!
       </p>
-      <div className="grid md:grid-cols-4 gap-4 grid-cols-2">
+      </div>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 mt-10 gap-4 grid-cols-1">
         {workingSteps.map((step) => (
           <div
             key={step.id}
             className="relative pt-7"
           >
-           <div className="border-2  border-yellow-600 px-5 py-8 space-y-5">
+           <div className="border-2  border-yellow-600 px-5 py-8 space-y-2 md:space-y-5">
            <div>
               <img src={girl} className="w-20 h-20 mx-auto" alt={step.title} />
             </div>
             <h2 className="text-yellow-600 text-center font-serif font-semibold text-2xl">
               {step.title}
             </h2>
-            <p className="text-gray-600 text-lg line-clamp-2 text-center ">
+            <p className="text-gray-600 text-sm md:text-lg line-clamp-2 text-center ">
               {step.description}
             </p>
            </div>

@@ -39,9 +39,9 @@ export default function Horoscope() {
       >
         <div className="absolute inset-0 bg-black bg-opacity-80"></div>
 
-        <div className="relative flex flex-col justify-center items-center py-20 space-y-5 text-white">
-          <h6 className="text-5xl font-bold text-center">Horoscope</h6>
-          <p className="text-center">
+        <div className="relative flex flex-col justify-center items-center py-10 px-5 md:py-20 space-y-5 text-white">
+          <h6 className="text-2xl md:text-5xl font-bold text-center">Horoscope</h6>
+          <p className="text-center text-sm md:text-base">
             Lorem ipsum dolor sit amet consectetur adipisicing alias dicta
             repellat magni sint odio <br className="md:block hidden" /> inventore voluptatibus
             suscipit? Numquam nobis distinctio illum laboriosam.
