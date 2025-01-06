@@ -4,7 +4,7 @@ import Contact from "../component/Contact";
 export default function ContactUs() {
   return (
     <div>
-      <BackGround />
+      <BackGround title="Contact Us" />
       <Contact />
     </div>
   );

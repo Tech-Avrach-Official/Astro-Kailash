@@ -10,7 +10,7 @@ import img5 from "../assets/download(5).svg";
 
 export default function OurServices() {
   return (
-    <div className="bg-primary pt-5 pb-16 px-5 md:px-10 lg:px-20 xl:px-40">
+    <div className="bg-[#020013] py-10 md:py-20 px-5 md:px-10 lg:px-20 xl:px-40">
       <h2 className="text-center text-white font-semibold text-3xl md:text-4xl lg:text-5xl">
         Our Services
       </h2>
@@ -21,7 +21,7 @@ export default function OurServices() {
         soluta quaerat excepturi cupiditate eveniet iusto corporis ab
       </p>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-6 pt-16 space-y-14 lg:space-y-0">
+      <div className="grid grid-cols-1 lg:grid-cols-3 items-center justify-center gap-10">
         {/* Left Column */}
         <div className="flex flex-col space-y-6">
           <div className="border-accent border-2 rounded-md flex justify-between items-center">
@@ -60,12 +60,19 @@ export default function OurServices() {
         </div>
 
         {/* Middle Column */}
-        <div className=" relative pt-14 pb-9">
-          <img src={service} alt="Main Service Graphic" className="mx-auto" />
+        <div className="w-full h-full flex items-center justify-center relative "
+        style={{
+          backgroundImage: `url(${service})`,
+          backgroundSize: "contain",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        >
+          {/* <img src={service} alt="Main Service Graphic" className="mx-auto" /> */}
           <img
             src={hand}
             alt="Hand Graphic"
-            className="absolute lg:-bottom-4 -bottom-4 left-1/2 transform -translate-x-1/2 xl:left-14 lg:left-1 lg:translate-x-0 "
+            className="h-full"
           />
         </div>
 
